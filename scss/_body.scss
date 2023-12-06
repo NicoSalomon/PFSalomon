@@ -1,14 +1,18 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+    --bs-bg-opacity: 1;
 }
 
 .cuerpo {
     margin: auto;
     margin-top: 7%;
-    background-color: rgb(195, 228, 128);
+    @include degrade;
     border-radius: 20px;
     width: 95%;
     padding: 4%;
+    box-shadow: 0px 0px 5px black;
 
     h1 {
         text-align: center;
@@ -56,7 +60,7 @@ body {
         }
 
         .mas_noticias.dos {
-            background-image: url("../img/3_mejores_puntos.jpg");
+            background-image: url("../img/world_p_show.jpg");
             background-size: 100% 100%;
         }
 
@@ -65,5 +69,25 @@ body {
             background-size: 100% 100%;
         }
     }
+}
+
+footer {
+    .caja_icons {
+        display: flex;
+        justify-content: center;
+
+        .icons_redes {
+            margin: auto;
+            width: 2.5%;
+            margin-top: 4%;
+            margin-inline: 5%;
+        }
+    }
     
+
+    p {
+        color: gray;
+        margin-top: 5%;
+        text-align: center;
+    }
 }

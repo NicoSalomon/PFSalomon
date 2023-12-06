@@ -1,0 +1,13 @@
+.formulario {
+    width: 50%;
+    margin: auto; 
+    margin-top: 10%;
+    padding: 25px;
+    border-radius: 10px;
+    // @include degrade;
+    box-shadow: 0px 0px 10px black;
+
+    label {
+        padding: 10px;
+    }
+}

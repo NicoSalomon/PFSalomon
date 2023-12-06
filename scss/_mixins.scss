@@ -1,0 +1,4 @@
+@mixin degrade {
+    background: rgb(3,90,115);
+    background: radial-gradient(circle, rgba(3,90,115,1) 45%, rgba(92,0,0,1) 100%);
+}
