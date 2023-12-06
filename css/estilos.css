@@ -95,10 +95,19 @@ footer p {
 }
 
 .contenedor_cards {
-  border: 1px solid red;
+  padding: 4%;
   width: 95%;
   margin: auto;
   margin-top: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black;
+}
+.contenedor_cards .card {
+  margin: 20px;
+  box-shadow: 0px 0px 10px black;
 }
 
 /*# sourceMappingURL=estilos.css.map */
