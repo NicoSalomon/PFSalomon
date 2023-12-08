@@ -9,13 +9,23 @@
     // @include degrade;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
+    @include degrade;
+
+    .culo {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .uno {
+        margin-top: 5%;
+    }
 
     .card {
         margin: 20px;
         box-shadow: 0px 0px 10px black;
+
+        .card-img-top {
+            height: 100%;
+        }
     }
 }
-
-// .titulo_card {
-    
-// }
