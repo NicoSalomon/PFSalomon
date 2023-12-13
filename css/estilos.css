@@ -9,6 +9,49 @@ body {
   --bs-bg-opacity: 1;
 }
 
+.contenedor_cards {
+  padding: 4%;
+  width: 95%;
+  margin: auto;
+  margin-top: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black;
+  background: rgb(3, 90, 115);
+  background: radial-gradient(circle, rgb(3, 90, 115) 45%, rgb(92, 0, 0) 100%);
+}
+.contenedor_cards .name_marca {
+  width: 100%;
+  margin-bottom: 2%;
+}
+.contenedor_cards .uno {
+  margin-top: 5%;
+}
+.contenedor_cards .dos {
+  margin-top: 5%;
+}
+.contenedor_cards .card {
+  margin: 20px;
+  box-shadow: 0px 0px 10px black;
+}
+.contenedor_cards .card .card-img-top {
+  height: 100%;
+}
+
+.formulario {
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+.formulario label {
+  padding: 10px;
+}
+
 .cuerpo {
   margin: auto;
   margin-top: 7%;
@@ -38,88 +81,46 @@ body {
 }
 .cuerpo .mas_noticias {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
-.cuerpo .mas_noticias .mas_noticias {
+.cuerpo .mas_noticias .noticia {
   margin: 5%;
-  width: 30%;
-  height: 200px;
-  box-sizing: border-box;
+  width: 25%;
   padding: 0;
   border-radius: 20px;
+  background-size: 100% 100%;
 }
-.cuerpo .mas_noticias .mas_noticias p {
-  margin: 20% auto;
+.cuerpo .mas_noticias .noticia .titulo_noticia {
+  text-align: center;
+  margin: 20%;
   color: white;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 0px 0px 5px black;
+  font-style: italic;
 }
-.cuerpo .mas_noticias .mas_noticias.uno {
+.cuerpo .mas_noticias .uno {
   background-image: url("../img/3_mejores_puntos.jpg");
-  background-size: 100% 100%;
 }
-.cuerpo .mas_noticias .mas_noticias.dos {
-  background-image: url("../img/world_p_show.jpg");
-  background-size: 100% 100%;
+.cuerpo .mas_noticias .dos {
+  background-image: url("../img/rey_arturo.jpg");
 }
-.cuerpo .mas_noticias .mas_noticias.tres {
-  background-image: url("../img/3_mejores_puntos.jpg");
-  background-size: 100% 100%;
+.cuerpo .mas_noticias .tres {
+  background-image: url("../img/homenaje.jpeg");
 }
 
-footer .caja_icons {
+.footer_general .caja_icons {
   display: flex;
   justify-content: center;
 }
-footer .caja_icons .icons_redes {
+.footer_general .caja_icons .icons_redes {
   margin: auto;
   width: 2.5%;
   margin-top: 4%;
   margin-inline: 5%;
 }
-footer p {
+.footer_general p {
   color: gray;
   margin-top: 5%;
   text-align: center;
-}
-
-.formulario {
-  width: 50%;
-  margin: auto;
-  margin-top: 10%;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px black;
-}
-.formulario label {
-  padding: 10px;
-}
-
-.contenedor_cards {
-  padding: 4%;
-  width: 95%;
-  margin: auto;
-  margin-top: 7%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px black;
-  background: rgb(3, 90, 115);
-  background: radial-gradient(circle, rgb(3, 90, 115) 45%, rgb(92, 0, 0) 100%);
-}
-.contenedor_cards .culo {
-  width: 100%;
-  margin-bottom: 5%;
-}
-.contenedor_cards .uno {
-  margin-top: 5%;
-}
-.contenedor_cards .card {
-  margin: 20px;
-  box-shadow: 0px 0px 10px black;
-}
-.contenedor_cards .card .card-img-top {
-  height: 100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,20 @@
+.footer_general {
+    .caja_icons {
+        display: flex;
+        justify-content: center;
+
+        .icons_redes {
+            margin: auto;
+            width: 2.5%;
+            margin-top: 4%;
+            margin-inline: 5%;
+        }
+    }
+    
+
+    p {
+        color: gray;
+        margin-top: 5%;
+        text-align: center;
+    }
+}

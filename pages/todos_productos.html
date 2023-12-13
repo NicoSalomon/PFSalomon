@@ -3,9 +3,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NombrePag | Todos los Productos</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
+    <!-- navBar Bootstrap -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Todos los Productos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:brown">
+                    Productos
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="palas.html">Palas</a></li>
+                    <li><a class="dropdown-item" href="indumentaria.html">Indumentaria</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#" style="color:brown">Todos los productos</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>                
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-success" type="submit">Buscar</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navBar Bootstrap -->
+
+    <!-- Cards Bootstrap -->
+    <div class="contenedor_cards">
+        <h2 class="name_marca"><a href="palas.html">Palas</a> | Linea Bullpadel</h2>
+        <div class="card" style="width: 18rem;">
+          <img src="../img/palas_img/bullpadel_vertex_03.png" class="card-img-top" alt="...">  <!-- Cambiar nombre de la img -->
+          <div class="card-body">
+              <h5 class="card-title">Bullpadel Hack Master Final</h5>
+              <p class="card-text">La pala HACK en su versión más exclusiva. Su nuevo molde híbrido aporta un mayor sweet s.. leer más</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+          </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+          <img src="../img/palas_img/bullpadel_hack_03_2022.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Bullpadel Hack Ctr</h5>
+              <p class="card-text">La pala Hack Control es una pala con forma redonda, de máximo control y alto rendimiento.. leer más</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+          </div>
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+          <img src="../img/palas_img/bullpadel_hack_03.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Bullpadel 03 FIP</h5>
+              <p class="card-text">La pala Bullpadel HACK 03 FIP es una pala con forma de diamante que ofrece la máxima po.. leer más</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+          </div>
+      </div>
+      
+      <h2 class="name_marca dos"><a href="palas.html">Palas</a> | Linea Nox</h2>
+      <div class="card" style="width: 18rem;">
+          <img src="../img/palas_img/nox_at10_genius_18k.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Nox AT10 Genius 18k</h5>
+              <p class="card-text">Pala Nox AT10 GENIUS 18K by Agustín Tapia 2024, la nueva pala del Mozart de Catamarc.. leer más</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+          </div>
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+          <img src="../img/palas_img/nox_at10_genius_12k.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Nox AT10 Genius 12k</h5>
+              <p class="card-text">Pala Nox AT10 GENIUS 12K by Agustín Tapia 2024 con nuevo molde, materiales y tecn.. leer más</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+          </div>
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+          <img src="../img/palas_img/nox_ml10_procup.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Nox ML10 Pro Cup Luxury</h5>
+              <p class="card-text">La nueva ML10 Pro Cup Luxury 2024 de Miguel Lamperti incorpora modificaciones en el mol.. leer más</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+          </div>
+      </div>
+
+      <h2 class="name_marca dos"><a href="palas.html">Palas</a> | Linea Babolat</h2>
+      
+      <div class="card" style="width: 18rem;">
+          <img src="../img/palas_img/babolat_technical_viper.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Babolat Technical Vertuo</h5>
+              <p class="card-text">Diseñada para los jugadores con un nivel de juego iniciación y avanzado. El núcleo de.. leer más</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+          </div>
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+          <img src="../img/palas_img/babolat_counter_viper.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Babolat Counter Viper</h5>
+              <p class="card-text">Tolerancia y potencia explosiva: exactamente lo que necesitas para ser un muro y controlar.. leer más</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+          </div>
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+          <img src="../img/palas_img/babolat_air_viper.png" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">Babolat Air Viper</h5>
+              <p class="card-text">Potencia explosiva con extrema manejabilidad: es lo que necesitas para ser un atacante aér.. leer más</p>
+              <a href="#" class="btn btn-success">Comprar</a>
+          </div>
+      </div>
+
+        <h2 class="name_marca uno"><a href="indumentaria.html">Indumentaria</a> | Hombres</h2>
+        <div class="card" style="width: 18rem;">
+            <img src="../img/indumentaria_img/pantalon_joma.png" class="card-img-top" alt="pantalon joma">
+            <div class="card-body">
+                <h5 class="card-title">Pantalon Joma</h5>
+                <p class="card-text">Bermuda con bolsillos dirigida a competición realizados en tejido ligero. Cintura elástica.. leer más</p>
+                <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="../img/indumentaria_img/camiseta_head.png" class="card-img-top" alt="camiseta head">
+            <div class="card-body">
+                <h5 class="card-title">Remera Head</h5>
+                <p class="card-text">La camiseta Club Carl presenta una mezcla de materiales supercómoda, con poli.. leer más</p>
+                <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="../img/indumentaria_img/calcetines_babolat.png" class="card-img-top" alt="calcetines babolat">
+            <div class="card-body">
+                <h5 class="card-title">Calcetines Babolat</h5>
+                <p class="card-text">Los calcetines PRO 360 para hombre están equipados con la tecnología Fiberdry, para.. ver más</p>
+                <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div>
+
+        <h2 class="name_marca dos"><a href="indumentaria.html">Indumentaria</a> | Mujeres</h2>        
+
+        <div class="card" style="width: 18rem;">
+            <img src="../img/indumentaria_img/falda_joma.png" class="card-img-top" alt="pollera deportiva joma">
+            <div class="card-body">
+                <h5 class="card-title">Falda Joma</h5>
+                <p class="card-text">Falda Joma Katy II 100% poliéster en color azul marino. Falda de pádel con pantalón inter.. ver más</p>
+                <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="../img/indumentaria_img/top_nox.png" class="card-img-top" alt="top dama nox">
+            <div class="card-body">
+                <h5 class="card-title">Top Nox Pro</h5>
+                <p class="card-text">Top Nox Pro para mujer con alta sujeción. La camiseta incorpora un tejido ligero con tecnologí.. ver más</p>
+                <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="../img/indumentaria_img/camiseta_mizuno.png" class="card-img-top" alt="camiseta mizuno">
+            <div class="card-body">
+                <h5 class="card-title">Camiseta Mizuno</h5>
+                <p class="card-text">Camiseta Mizuno fly crew de mujer en color gris con el logo en verde. Modelo de camiseta depo.. ver más</p>
+                <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div>  
+
+        <h2 class="name_marca dos"><a href="indumentaria.html">Indumentaria</a> | Accesorios</h2>
+
+        <div class="card" style="width: 18rem;">
+            <img src="../img/indumentaria_img/pelotas_nox.png" class="card-img-top" alt="pelotas nox">
+            <div class="card-body">
+                <h5 class="card-title">Bolas Nox Pro Titanio x3</h5>
+                <p class="card-text">Latas de 4 bolas. Pelotas de pádel de alta calidad aptas para la competición profesiona.. ver más</p>
+                <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div> 
+
+        <div class="card" style="width: 18rem;">
+            <img src="../img/indumentaria_img/gorra_adidas.png" class="card-img-top" alt="gorra adidas">
+            <div class="card-body">
+                <h5 class="card-title">Gorra Adidas</h5>
+                <p class="card-text">Gorra Adidas en color negro con logo de la marca en el frente. Tejido transpirable AEROREADY..ver más</p>
+                <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div> 
+
+        <div class="card" style="width: 18rem;">
+            <img src="../img/indumentaria_img/collar_pala.png" class="card-img-top" alt="collar de pala dorado">
+            <div class="card-body">
+                <h5 class="card-title">Collar Pala Dorado</h5>
+                <p class="card-text">Colgante pala de pádel formato diamante. El colgante está realizado con metal anti.. leer más</p>
+                <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div> 
+    </div>
+    <!-- Cards Bootstrap -->
+
+    <footer class="footer_general">
+        <div class="caja_icons">
+            <img class="icons_redes" src="../icons/instagram.png" alt="instagram">
+            <img class="icons_redes" src="../icons/facebook.png" alt="facebook">
+            <img class="icons_redes" src="../icons/x.png" alt="twitter">
+            <img class="icons_redes" src="../icons/github.png" alt="github">
+        </div>
+        <p>Todos los derechos reservados. By Nicolás Salomón.</p>
+        </footer>
     
 </body>
 </html>
