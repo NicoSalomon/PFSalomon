@@ -1,8 +1,5 @@
 body {
   margin: 0;
-}
-
-body {
   font-family: "Montserrat", sans-serif;
   color: white;
   background: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
@@ -13,7 +10,7 @@ body {
   padding: 4%;
   width: 95%;
   margin: auto;
-  margin-top: 7%;
+  margin-top: 65px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -39,11 +36,14 @@ body {
 .contenedor_cards .card .card-img-top {
   height: 100%;
 }
+.contenedor_cards .ruta {
+  color: white;
+}
 
 .formulario {
   width: 50%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 100px;
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
@@ -52,9 +52,22 @@ body {
   padding: 10px;
 }
 
+@media (max-width: 1000px) {
+  .formulario {
+    width: 80%;
+  }
+}
+@media (max-width: 700px) {
+  .formulario {
+    width: 95%;
+  }
+  .formulario .row .col {
+    flex: none;
+  }
+}
 .cuerpo {
   margin: auto;
-  margin-top: 7%;
+  margin-top: 70px;
   background: rgb(3, 90, 115);
   background: radial-gradient(circle, rgb(3, 90, 115) 45%, rgb(92, 0, 0) 100%);
   border-radius: 20px;
@@ -71,7 +84,7 @@ body {
 }
 .cuerpo .video {
   border-radius: 20px;
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 0px 0px 5px black;
   margin: 2%;
 }
 .cuerpo p {
@@ -79,48 +92,100 @@ body {
   padding-inline: 10%;
   text-align: center;
 }
-.cuerpo .mas_noticias {
-  display: flex;
-  justify-content: space-evenly;
+.cuerpo .titulo_carousel {
+  margin-top: 5%;
 }
-.cuerpo .mas_noticias .noticia {
-  margin: 5%;
-  width: 25%;
-  padding: 0;
-  border-radius: 20px;
-  background-size: 100% 100%;
+.cuerpo #carouselExample {
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 4%;
+  height: 420px;
 }
-.cuerpo .mas_noticias .noticia .titulo_noticia {
-  text-align: center;
-  margin: 20%;
-  color: white;
-  text-shadow: 0px 0px 5px black;
-  font-style: italic;
+.cuerpo #carouselExample .carousel-inner {
+  border-radius: 10px;
 }
-.cuerpo .mas_noticias .uno {
-  background-image: url("../img/3_mejores_puntos.jpg");
-}
-.cuerpo .mas_noticias .dos {
-  background-image: url("../img/rey_arturo.jpg");
-}
-.cuerpo .mas_noticias .tres {
-  background-image: url("../img/homenaje.jpeg");
+.cuerpo #carouselExample .carousel-inner img {
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
-.footer_general .caja_icons {
-  display: flex;
-  justify-content: center;
+@media (max-width: 950px) {
+  .cuerpo #carouselExample {
+    width: 80%;
+    height: auto;
+  }
+  .cuerpo #carouselExample .carousel-control-prev, .cuerpo #carouselExample .carousel-control-next {
+    height: 60%;
+  }
+}
+@media (max-width: 850px) {
+  .cuerpo .video {
+    width: 80%;
+    height: 250px;
+  }
+  .cuerpo h3 {
+    text-align: center;
+    margin: 7%;
+  }
+  .cuerpo .subtitulo {
+    font-size: 18px;
+    text-align: left;
+    margin: 25px 0;
+  }
+  .cuerpo p {
+    padding-inline: 1%;
+    text-indent: 0;
+  }
+  .cuerpo #carouselExample {
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+  }
+  .cuerpo #carouselExample .carousel-control-prev, .cuerpo #carouselExample .carousel-control-next {
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  .cuerpo .video {
+    width: 90%;
+    height: 150px;
+  }
+}
+.footer_general {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 8%;
+  text-align: center;
+}
+.footer_general h4 {
+  color: darkgrey;
 }
 .footer_general .caja_icons .icons_redes {
-  margin: auto;
-  width: 2.5%;
+  width: 40px;
+  margin-inline: 3%;
   margin-top: 4%;
-  margin-inline: 5%;
 }
 .footer_general p {
   color: gray;
-  margin-top: 5%;
+  margin-top: 10%;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .footer_general {
+    width: 100%;
+  }
+  .footer_general h4 {
+    font-size: 16px;
+  }
+  .footer_general .caja_icons .icons_redes {
+    width: 20px;
+  }
+  .footer_general p {
+    font-size: 10px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

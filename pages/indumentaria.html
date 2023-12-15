@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indumentaria</title>
+    <title>Indumentaria | Foco Padel</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Animaciones -->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body class="fondo_completo">
@@ -42,9 +45,6 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>                
                 </ul>
@@ -61,7 +61,7 @@
     <!-- Cards Bootstrap -->
     <div class="contenedor_cards">
         <h2 class="name_marca">Hombres</h2>
-        <div class="card" style="width: 18rem;">
+        <div class="card" data-aos="zoom-out-up" style="width: 18rem;">
             <img src="../img/indumentaria_img/pantalon_joma.png" class="card-img-top" alt="pantalon joma">
             <div class="card-body">
                 <h5 class="card-title">Pantalon Joma</h5>
@@ -70,7 +70,7 @@
             </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
+        <div class="card" data-aos="zoom-out-up" style="width: 18rem;">
             <img src="../img/indumentaria_img/camiseta_head.png" class="card-img-top" alt="camiseta head">
             <div class="card-body">
                 <h5 class="card-title">Remera Head</h5>
@@ -79,7 +79,7 @@
             </div>
         </div>
         
-        <div class="card" style="width: 18rem;">
+        <div class="card" data-aos="zoom-out-up" style="width: 18rem;">
             <img src="../img/indumentaria_img/calcetines_babolat.png" class="card-img-top" alt="calcetines babolat">
             <div class="card-body">
                 <h5 class="card-title">Calcetines Babolat</h5>
@@ -90,7 +90,7 @@
 
         <h2 class="name_marca dos">Mujeres</h2>        
 
-        <div class="card" style="width: 18rem;">
+        <div class="card" data-aos="zoom-out-up" style="width: 18rem;">
             <img src="../img/indumentaria_img/falda_joma.png" class="card-img-top" alt="pollera deportiva joma">
             <div class="card-body">
                 <h5 class="card-title">Falda Joma</h5>
@@ -99,7 +99,7 @@
             </div>
         </div>
         
-        <div class="card" style="width: 18rem;">
+        <div class="card" data-aos="zoom-out-up" style="width: 18rem;">
             <img src="../img/indumentaria_img/top_nox.png" class="card-img-top" alt="top dama nox">
             <div class="card-body">
                 <h5 class="card-title">Top Nox Pro</h5>
@@ -108,7 +108,7 @@
             </div>
         </div>
         
-        <div class="card" style="width: 18rem;">
+        <div class="card" data-aos="zoom-out-up" style="width: 18rem;">
             <img src="../img/indumentaria_img/camiseta_mizuno.png" class="card-img-top" alt="camiseta mizuno">
             <div class="card-body">
                 <h5 class="card-title">Camiseta Mizuno</h5>
@@ -119,7 +119,7 @@
 
         <h2 class="name_marca dos">Accesorios</h2>
 
-        <div class="card" style="width: 18rem;">
+        <div class="card" data-aos="zoom-out-up" style="width: 18rem;">
             <img src="../img/indumentaria_img/pelotas_nox.png" class="card-img-top" alt="pelotas nox">
             <div class="card-body">
                 <h5 class="card-title">Bolas Nox Pro Titanio x3</h5>
@@ -128,7 +128,7 @@
             </div>
         </div> 
 
-        <div class="card" style="width: 18rem;">
+        <div class="card" data-aos="zoom-out-up" style="width: 18rem;">
             <img src="../img/indumentaria_img/gorra_adidas.png" class="card-img-top" alt="gorra adidas">
             <div class="card-body">
                 <h5 class="card-title">Gorra Adidas</h5>
@@ -137,7 +137,7 @@
             </div>
         </div> 
 
-        <div class="card" style="width: 18rem;">
+        <div class="card" data-aos="zoom-out-up" style="width: 18rem;">
             <img src="../img/indumentaria_img/collar_pala.png" class="card-img-top" alt="collar de pala dorado">
             <div class="card-body">
                 <h5 class="card-title">Collar Pala Dorado</h5>
@@ -157,5 +157,11 @@
         </div>
         <p>Todos los derechos reservados. By Nicolás Salomón.</p>
         </footer>
+
+    <!-- Script JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

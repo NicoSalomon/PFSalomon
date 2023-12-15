@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Crear meta -->
-    <title>Home</title>
-
+    <title>Home | Foco Padel</title>
     <!-- Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <!-- Google Fonts -->
-
     <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <!-- Bootstrap -->
+    <!-- Bootstrap -->    
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Animaciones -->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <!-- navBar Bootstrap -->
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Home</a>
+          <a class="navbar-brand" href="#">Foco Padel | Home</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -50,9 +50,6 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="pages/contacto.html">Contacto</a>
                 </li>                
               </ul>
@@ -71,32 +68,69 @@
       <h3>¡Espectacular!</h3>
       <p>El mejor pádel del mundo ha podido disfrutar de una primera mitad de temporada 2023 con un auténtico nivelazo en el cuadro femenino. Por ello, aquí están los 10 mejores puntos femeninos de la primera mitad de año. ¡No te lo pierdas!
       Bea González está al frente de este ranking gracias a un puntazo.</p>
-      <h1><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/rjVM7o4QLto?si=fDOr0biOpfTYtBZ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></h1>
+      <h1><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/rjVM7o4QLto?si=fDOr0biOpfTYtBZ7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen data-aos="zoom-in-up" data-aos-duration="1000"></iframe></h1>
 
       <h1>El partido perfecto de Paquito Navarro</h1>
-      <h3>Un show en el Cervezas Victoria Marbella Master 2023</h3>
+      <h4 class="subtitulo">Un show en el Cervezas Victoria Marbella Master 2023</h4>
       <p>En el Cervezas Victoria Marbella Master 2023 apareció la mejor versión de Paquito Navarro. El Paquito Navarro más sólido, más acertado, más agresivo y más inteligente saltaba al 20x10 azul de World Padel Tour para dar una exhibición en los Cuartos de final.
       <p>Paquito Navarro y Fede Chingotto se enfrentaban ante Ale Galán y Jon Sanz por un puesto en las Semifinales del torneo marbellí. Paquito dio un paso hacia delante y firmó un partido perfecto para conseguir la victoria por un solvente resultado final de 6-2 y 6-1.</p>
       <p>Disfruta de la mejor versión de Paquito Navarro en el Cervezas Victoria Marbella Master 2023. Disfruta del espectáculo. </p>
-      <h1><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/DypFO0PhsRY?si=Q4WgF0jYm_ZoQPBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></h1>
+      <h1><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/DypFO0PhsRY?si=Q4WgF0jYm_ZoQPBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen data-aos="zoom-in-up" data-aos-duration="1000"></iframe></h1>
 
-      <h1>Más noticias:</h1>
-      <div class="mas_noticias">
-        <div class="noticia uno"><h6 class="titulo_noticia">Los 3 mejores puntos del Cervezas Victoria Malaga Open 2023</h6></div>
-        <div class="noticia dos"><h6 class="titulo_noticia">El Rey Arturo, el heredero al trono del pádel mundial</h6></div>
-        <div class="noticia tres"><h6 class="titulo_noticia">WPT homenajeará a las leyendas del Circuito en el Boss Barcelona Master Final 2023</h6></div>
+      <h1 class="titulo_carousel">Los mejores momentos:</h1> <!--  mejores momentos tambien puede ser un buen titulo -->
+      <div id="carouselExample" class="carousel slide" data-aos="fade-up" data-aos-duration="1500">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carousel_img/portada.jpg" class="d-block w-100" alt="Portada Master Final">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel_img/estadio.jpg" class="d-block w-100" alt="Estadio Master Final">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel_img/bea_gonzalez.jpg" class="d-block w-100" alt="Bea Gonzalez">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel_img/paquito.jpg" class="d-block w-100" alt="Paquito Navarro">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel_img/rey_arturo.jpg" class="d-block w-100" alt="Arturo Coello">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel_img/delfi_bea.jpg" class="d-block w-100" alt="Delfi Brea">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel_img/tapia_coello.jpg" class="d-block w-100" alt="Tapia y Coello">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel_img/3_mejores_puntos.jpg" class="d-block w-100" alt="Festejo de Lebron">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
 
     <footer class="footer_general">
+      <h4>Seguinos en nuestras redes:</h4>
       <div class="caja_icons">
-        <img class="icons_redes" src="icons/instagram.png" alt="instagram">
-        <img class="icons_redes" src="icons/facebook.png" alt="facebook">
-        <img class="icons_redes" src="icons/x.png" alt="twitter">
-        <img class="icons_redes" src="icons/github.png" alt="github">
+        <a href="https://www.instagram.com"><img class="icons_redes" src="icons/instagram_2.png" alt="instagram"></a>
+        <a href="https://www.facebook.com"><img class="icons_redes" src="icons/facebook_2.png" alt="facebook"></a>
+        <a href="https://www.twitter.com"><img class="icons_redes" src="icons/gorjeo.png" alt="twitter"></a>
+        <a href="https://www.youtube.com"><img class="icons_redes" src="icons/youtube.png" alt="youtube"></a>
       </div>
       <p>Todos los derechos reservados. By Nicolás Salomón.</p>
     </footer>
-    
+
+    <!-- Script JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>    
 </body>
 </html>

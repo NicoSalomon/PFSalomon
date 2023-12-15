@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contacto | Foco Padel</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Animaciones -->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
@@ -42,9 +45,6 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#" style="color:brown">Contacto</a>
               </li>                
             </ul>
@@ -59,9 +59,9 @@
       <!-- navBar Bootstrap -->
 
       <!-- Formulario Bootstrap -->
-      <form class="formulario">
+      <form class="formulario" data-aos="flip-left">
         <div class="row">
-          <div class="col">
+          <div class="col uno">
             <label for="text" class="form-label">Nombre</label>
             <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
           </div>
@@ -84,13 +84,20 @@
       <!-- Formulario Bootstrap -->
 
       <footer class="footer_general">
+        <h4>Seguinos en nuestras redes:</h4>
         <div class="caja_icons">
-          <img class="icons_redes" src="../icons/instagram.png" alt="instagram">
-          <img class="icons_redes" src="../icons/facebook.png" alt="facebook">
-          <img class="icons_redes" src="../icons/x.png" alt="twitter">
-          <img class="icons_redes" src="../icons/github.png" alt="github">
+          <a href="https://www.instagram.com"><img class="icons_redes" src="../icons/instagram_2.png" alt="instagram"></a>
+          <a href="https://www.facebook.com"><img class="icons_redes" src="../icons/facebook_2.png" alt="facebook"></a>
+          <a href="https://www.twitter.com"><img class="icons_redes" src="../icons/gorjeo.png" alt="twitter"></a>
+          <a href="https://www.youtube.com"><img class="icons_redes" src="../icons/youtube.png" alt="youtube"></a>
         </div>
         <p>Todos los derechos reservados. By Nicolás Salomón.</p>
       </footer>
+
+    <!-- Script JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
