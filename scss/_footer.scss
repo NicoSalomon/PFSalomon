@@ -25,6 +25,12 @@
     }
 }
 
+@media (max-width: 1050px) {
+    .footer_general {
+        width: 100%;
+    }
+}
+
 @media (max-width: 500px) {
     .footer_general {
         width: 100%;
@@ -37,8 +43,7 @@
             .icons_redes {
                 width: 20px;
             }
-        }
-        
+        }        
     
         p {
             font-size: 10px;
